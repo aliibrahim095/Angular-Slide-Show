@@ -1,1 +1,8 @@
 <h1>First Component Works!</h1>
+<p>
+  <input [value]="textInput" type="text" [(ngModel)]="textInput"/>
+</p>
+<p>{{textInput}}</p>
+<p>
+  <button (click)="change('Default Value')">Change Value</button>
+</p>

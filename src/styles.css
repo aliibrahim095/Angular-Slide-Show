@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+h1{
+    background-color: blueviolet;
+    color:crimson;
+    text-align: center;
+    padding: 20px;
+}
+
+button,img{
+    margin-left: 10px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color:darkgoldenrod;
+    border-color: crimson;
+    border: 5px;
+    color:antiquewhite
+
+}
+button:hover{
+    background-color:pink;
+    color:red;
+    cursor: pointer;
+}
+img{
+    width: 350px;
+    height:180px
+}   

@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './first.component.html',
   styleUrls: ['./first.component.css']
 })
-export class FirstComponent implements OnInit {
+export class FirstComponent {
 
   constructor() { }
 
-  ngOnInit(): void {
+  textInput:string="Ali";
+  change(value){
+    this.textInput=value;
   }
-
 }
